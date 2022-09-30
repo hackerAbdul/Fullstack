@@ -1,0 +1,28 @@
+.flex-1{
+    width: 200px;
+    background-color: pink;
+    border: 1px solid grey;
+}
+
+.flex-2{
+    width: 200px;
+    background-color: pink;
+    border: 1px solid grey;
+}
+
+.flex-3{
+    width: 200px;
+    background-color: pink;
+    border: 1px solid grey;
+}
+
+.flex-container{
+    display: flex;
+    border: 1px solid grey;
+    justify-content: space-around;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: beige;
+}
+
