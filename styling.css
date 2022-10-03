@@ -1,7 +1,8 @@
 .main{
     background-color: beige;
-    width: 50%;
+    width: 75%;
     margin:auto;
+    height: auto;
     border-left: 1px solid black;
     border-right: 1px solid black;
     font-size: 24px;
@@ -34,10 +35,6 @@ a:hover{
     height: 50%;
 }
 
-.computers{
-    width: 100px;
-    height: 100px;
-}
 
 .caption{
     text-align: center;
@@ -52,10 +49,6 @@ a:hover{
 /* # are used for id's
 . are used for classes */
 
-
-#last{
-    width: 950px;
-}
 
 .top-nav{
     list-style-type:none;
