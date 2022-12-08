@@ -1,0 +1,87 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#list-items{
+    font-size: large;
+    list-style-type: none;
+    text-align: center;
+}
+
+#search-button{
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+#search{
+    font-size: 17px;
+}
+
+#title-page{
+    background-color: aqua;
+    text-align: center;
+}
+
+
+.font-colour{
+    color: orange;
+}
+
+
+.wireframe{
+    width: 375px;
+    background-color: #89c82e;
+    border: 5px solid #3c3c3b;
+    border-radius: 25px;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+form{
+    height: 150px;
+}
+
+input{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 55%;
+}
+
+.name{
+    margin-top: 15px;
+}
+
+.email{
+    margin-left: 10px;
+}
+
+.credit{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.button{
+    margin-top: 10px;
+    border: none;
+    background-color: #e70064;
+    border-radius: 3px;
+    color: #3c3c3b;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    width: 20%;
+}
+
+.darkTheme{
+    color: white;
+}
