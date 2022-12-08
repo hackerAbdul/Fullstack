@@ -18,6 +18,12 @@ p{
     color: black;
 }
 
+/* @media all and (max-width: 500px){
+    body{
+        background-color: black;
+    }
+} */
+
 a{
     text-decoration: none;
     color: purple;
@@ -48,17 +54,33 @@ a:hover{
 
 /* # are used for id's
 . are used for classes */
+.flex-container{
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    background-color: pink;
+}
+
+.left-img{
+    width: 95%;
+}
+
+.right-img{
+    width: 95%;
+    border: 1px solid black;
+}
+
 
 
 .top-nav{
     list-style-type:none;
     overflow: hidden;
     background-color: beige;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
 }
 
-.top-nav-items{
-    float: left;
-}
 
 .top-nav-items a{
     display: block;

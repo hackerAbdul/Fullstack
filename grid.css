@@ -1,0 +1,16 @@
+.flex-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*makes 4 different coloumns  */
+    grid-template-rows: 1fr 1fr;
+}
+
+.flex-container div:nth-child(even){
+    background-color: cornflowerblue;
+}
+.flex-container div:nth-child(odd){
+    background-color: beige;
+}
+
+#item-1{
+    grid-row: 1 / 3;
+}
